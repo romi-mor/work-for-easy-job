@@ -1,0 +1,83 @@
+/* Importing "Heebo" font family */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+/* Style for titles */
+* {
+    font-family: 'Kalam', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+h1.bg {
+    background-color: #f0c48285;
+}
+
+/* Style for subtitles */
+h3, h4, h5, h6, p {
+    text-align: left;
+}
+
+/* Style for top navigation bar */
+ul {
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #504c4c9d;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1616169d;
+}
+
+li a.active {
+    background-color: #7af198c4;
+    color: #272323;
+}
+
+p {
+    font-size: x-large;    
+}
+
+.vertical-menu {
+    width: 200px;
+    height: inherit;
+}
+
+.vertical-menu a {
+    background-color: #504c4c9d;
+    color: #ffffff;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 24px
+}
+
+.vertical-menu a:hover {
+    background-color: #1616169d;
+    font-size: larger;
+}
+
+.vertical-menu a.active {
+    background-color: #7af198c4;
+    color: #272323;
+}
